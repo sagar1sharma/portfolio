@@ -36,6 +36,28 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Satvik Sewa"
+              description="Mental Health assistance and diagnosis application that is currently logic based, takes yes or no answers as input to diagnostic questions and suggest underlying mental health problem you might be suffering from."
+              ghLink="https://github.com/raushan27/satvik_sewa"
+              demoLink="https://satvik-sewa.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://imagedelivery.net/CLfkmk9Wzy8_9HRyug4EVA/dd1abac9-220d-4c4d-a8c5-d755e2606800/public"
+              isBlog={false}
+              title="Agorithm Visualiser"
+              description="A website to visualise sorting, searching and graph algorithms, to allow students and researchers to visualise algorithms to take insights, supported algorithms include, Insertion sort, Merge sort, Selection sort and Bubble sort, Linear and Binary search and BFS and DFS"
+              ghLink="https://github.com/sagar1sharma/algo-visualizer"
+              demoLink="https://algorithm-visualizer-23.netlify.app"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={emotion}
               isBlog={false}
               title="Face Eotion Detection"
@@ -64,30 +86,6 @@ function Projects() {
               ghLink="https://github.com/sagar1sharma/NeuroNexus"
               />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Satvik Sewa"
-              description="Mental Health assistance and diagnosis application that is currently logic based, takes yes or no answers as input to diagnostic questions and suggest underlying mental health problem you might be suffering from."
-              ghLink="https://github.com/raushan27/satvik_sewa"
-              demoLink="https://satvik-sewa.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://imagedelivery.net/CLfkmk9Wzy8_9HRyug4EVA/dd1abac9-220d-4c4d-a8c5-d755e2606800/public"
-              isBlog={false}
-              title="Agorithm Visualiser"
-              description="A website to visualise sorting, searching and graph algorithms, to allow students and researchers to visualise algorithms to take insights, supported algorithms include, Insertion sort, Merge sort, Selection sort and Bubble sort, Linear and Binary search and BFS and DFS"
-              ghLink="https://github.com/sagar1sharma/algo-visualizer"
-              demoLink="https://algorithm-visualizer-23.netlify.app"              
-            />
-          </Col>
-
-          
 
           <Col md={4} className="project-card">
             <ProjectCard
