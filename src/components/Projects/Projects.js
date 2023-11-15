@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
+import shopping from "../../Assets/Projects/shopperstop1.png"
+import careeradv from "../../Assets/Projects/careeradv1.png"
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -34,6 +36,37 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Face Eotion Detection"
+              description="Trained a CNN classifier using 'kaggle dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 65.1%.
+              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              ghLink="https://github.com/sagar1sharma/face-emotion-recognition"
+              />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shopping}
+              isBlog={false}
+              title="ShopperSite"
+              description="A full stack E-commerce website with database support, payment integration with RazorPay, reponsive and light and dark mode supported, made with MERN Stack"
+              ghLink="https://github.com/sagar1sharma/NeuroNexus"
+              />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={careeradv}
+              isBlog={false}
+              title="Career Portal for Hiring Managers and Job Seekers"
+              description="A full stack job portal website having dynamic support for admin/hr and users. Used MERN"
+              ghLink="https://github.com/sagar1sharma/NeuroNexus"
+              />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={suicide}
               isBlog={false}
               title="Satvik Sewa"
@@ -54,16 +87,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Eotion Detection"
-              description="Trained a CNN classifier using 'kaggle dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 65.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/sagar1sharma/face-emotion-recognition"
-              />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
