@@ -74,6 +74,7 @@ function Projects() {
               title="ShopperSite"
               description="A full stack E-commerce website with database support, payment integration with RazorPay, reponsive and light and dark mode supported, made with MERN Stack"
               ghLink="https://github.com/sagar1sharma/NeuroNexus"
+              demoLink="https://https://shoppersite21.netlify.app/"
               />
           </Col>
 
@@ -84,6 +85,8 @@ function Projects() {
               title="Career Portal for Hiring Managers and Job Seekers"
               description="A full stack job portal website having dynamic support for admin/hr and users. Used MERN"
               ghLink="https://github.com/sagar1sharma/NeuroNexus"
+              demoLink="https://career-adventure.vercel.app/"
+              
               />
           </Col>
 
