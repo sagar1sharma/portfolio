@@ -74,7 +74,7 @@ function Projects() {
               title="ShopperSite"
               description="A full stack E-commerce website with database support, payment integration with RazorPay, reponsive and light and dark mode supported, made with MERN Stack"
               ghLink="https://github.com/sagar1sharma/NeuroNexus"
-              demoLink="https://https://shoppersite21.netlify.app/"
+              demoLink="https://shoppersite21.netlify.app/"
               />
           </Col>
 
